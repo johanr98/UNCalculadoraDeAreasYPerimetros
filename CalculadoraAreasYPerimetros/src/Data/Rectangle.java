@@ -9,12 +9,12 @@ package Data;
  *
  * @author joseb
  */
-public class Rectangulo {
+public class Rectangle {
 
     private double base;
     private double altura;
 
-    public Rectangulo(double base, double altura) {
+    public Rectangle(double base, double altura) {
         this.altura = altura;
         this.base = base;
     }

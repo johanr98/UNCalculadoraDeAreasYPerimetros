@@ -9,7 +9,7 @@ package Data;
  *
  * @author joseb
  */
-public class Trapecio {
+public class Trapezoid {
 
     private double baseMayor;
     private double baseMenor;
@@ -17,13 +17,13 @@ public class Trapecio {
     private double lado2;
     private double altura;
 
-    public Trapecio(double baseMayor, double baseMenor, double altura) {
+    public Trapezoid(double baseMayor, double baseMenor, double altura) {
         this.baseMayor = baseMayor;
         this.baseMenor = baseMenor;
         this.altura = altura;
     }
 
-    public Trapecio(double baseMayor, double baseMenor, double lado1, double lado2) {
+    public Trapezoid(double baseMayor, double baseMenor, double lado1, double lado2) {
         this.baseMayor = baseMayor;
         this.baseMenor = baseMenor;
         this.lado1 = lado1;

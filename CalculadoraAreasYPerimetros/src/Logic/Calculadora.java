@@ -14,11 +14,11 @@ import UI.UI;
  */
 public class Calculadora {
 
-    static Triangulo triangulo;
-    static Cuadrado cuadrado;
-    static Rectangulo rectangulo;
-    static Circulo circulo;
-    static Trapecio trapecio;
+    static Triangle triangulo;
+    static Square cuadrado;
+    static Rectangle rectangulo;
+    static Circle circulo;
+    static Trapezoid trapecio;
 
     public static void main(String... args) {
         UI.printWelcome();

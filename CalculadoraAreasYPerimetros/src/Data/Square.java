@@ -9,11 +9,11 @@ package Data;
  *
  * @author joseb
  */
-public class Cuadrado {
+public class Square {
 
     private double lado;
 
-    public Cuadrado(double lado) {
+    public Square(double lado) {
         this.lado = lado;
     }
 

@@ -14,49 +14,49 @@ import UI.UI;
  */
 public class Perimetro {
 
-    public static double perimetroTriangulo(Triangulo a) {
+    public static double perimetroTriangulo(Triangle a) {
         return a.getBase() + a.getLado2() + a.getLado3();
     }
 
-    public static double perimetroCuadrado(Cuadrado a) {
+    public static double perimetroCuadrado(Square a) {
         return 4.0 * a.getLado();
     }
 
-    public static double perimetroRectangulo(Rectangulo a) {
+    public static double perimetroRectangulo(Rectangle a) {
         return (2 * a.getBase()) + (2 * a.getAltura());
     }
 
-    public static double perimetroCirculo(Circulo a) {
+    public static double perimetroCirculo(Circle a) {
         return 2 * Math.PI * a.getRadio();
     }
 
-    public static double perimetroTrapecio(Trapecio a) {
+    public static double perimetroTrapecio(Trapezoid a) {
         return a.getBaseMayor() + a.getBaseMenor() + a.getLado1() + a.getLado2();
     }
 
-    public static Cuadrado llenarCuadrado() {
+    public static Square llenarCuadrado() {
         return Area.llenarCuadrado();
     }
 
-    public static Circulo llenarCirculo() {
+    public static Circle llenarCirculo() {
         return Area.llenarCirculo();
     }
 
-    public static Rectangulo llenarRectangulo() {
+    public static Rectangle llenarRectangulo() {
         return Area.llenarRectangulo();
     }
 
-    public static Triangulo llenarTriangulo() {
+    public static Triangle llenarTriangulo() {
         UI.printInputLado(1);
         double lado1 = Input.leerDouble();
         UI.printInputLado(2);
         double lado2 = Input.leerDouble();
         UI.printInputLado(3);
         double lado3 = Input.leerDouble();
-        return new Triangulo(lado1, lado2, lado3);
+        return new Triangle(lado1, lado2, lado3);
     }
 
-    public static Trapecio llenarTrapecio() {
+    public static Trapezoid llenarTrapecio() {
         UI.printInputBase(1);
         double baseMayor = Input.leerDouble();
         UI.printInputBase(2);
@@ -65,6 +65,6 @@ public class Perimetro {
         double lado1 = Input.leerDouble();
         UI.printInputLado(2);
         double lado2 = Input.leerDouble();
-        return new Trapecio(baseMayor, baseMenor, lado1, lado2);
+        return new Trapezoid(baseMayor, baseMenor, lado1, lado2);
     }
 }

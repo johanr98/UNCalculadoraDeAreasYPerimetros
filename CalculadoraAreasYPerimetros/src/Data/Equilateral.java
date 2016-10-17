@@ -7,18 +7,8 @@ package Data;
 
 /**
  *
- * @author joseb
+ * @author johanr98 jsromerod@unal.edu.co
  */
-public class Circulo {
-
-    private double radio;
-
-    public Circulo(double radio) {
-        this.radio = radio;
-    }
-
-    public double getRadio() {
-        return radio;
-    }
-
+public class Equilateral {
+    
 }
