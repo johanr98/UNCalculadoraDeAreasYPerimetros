@@ -9,7 +9,7 @@ package Data;
  *
  * @author joseb
  */
-public class Triangle {
+public abstract class Triangle extends Shape{
 
     private double base;
     private double lado2;

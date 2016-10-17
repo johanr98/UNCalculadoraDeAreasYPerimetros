@@ -9,6 +9,9 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Scalene {
+public class Scalene extends Triangle{
+    private double side1;
+    private double side2;
+    private double side3;
     
 }

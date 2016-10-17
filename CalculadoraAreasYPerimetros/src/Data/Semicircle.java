@@ -9,6 +9,21 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Semicircle {
+public class Semicircle extends Circle{
     
+    public Semicircle(double radio) {
+        super(radio);
+    }
+    
+    @Override
+    public void calculateArea(){
+        double a= (Math.PI * this.getRadio() * this.getRadio() )/2;
+        this.setArea(a);
+    }
+    
+    @Override
+    public void calculatePerimeter(){
+        double p= ( Math.PI * this.getRadio() ) + (2 * this.getRadio()) ;
+        this.setPerimeter(p);
+    }
 }

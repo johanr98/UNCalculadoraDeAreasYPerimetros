@@ -9,7 +9,7 @@ package Data;
  *
  * @author joseb
  */
-public class Rectangle {
+public class Rectangle extends Cuadrilateral {
 
     private double base;
     private double altura;

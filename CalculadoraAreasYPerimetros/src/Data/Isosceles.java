@@ -9,6 +9,7 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Isosceles {
-    
+public class Isosceles extends Triangle{
+    private double side1and2;
+    private double side3;
 }

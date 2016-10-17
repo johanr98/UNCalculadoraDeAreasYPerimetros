@@ -9,6 +9,6 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Equilateral {
-    
+public class Equilateral extends Triangle{
+    private double sides;
 }

@@ -9,7 +9,7 @@ package Data;
  *
  * @author joseb
  */
-public class Trapezoid {
+public class Trapezoid extends Cuadrilateral{
 
     private double baseMayor;
     private double baseMenor;

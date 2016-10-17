@@ -9,15 +9,20 @@ package Data;
  *
  * @author joseb
  */
-public class Square {
+public class Square extends Cuadrilateral{
 
-    private double lado;
+    private double side;
 
     public Square(double lado) {
-        this.lado = lado;
+        this.side = side;
+    }
+    
+    public void setArea(){
+        this.area= side * side ;
+    }
+    
+    public void setPerimeter(){
+        this.perimeter = 4 * side;
     }
 
-    public double getLado() {
-        return lado;
-    }
 }

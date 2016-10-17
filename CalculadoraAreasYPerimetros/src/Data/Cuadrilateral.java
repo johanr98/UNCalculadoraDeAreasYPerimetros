@@ -9,6 +9,9 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Cuadrilateral {
+public abstract class Cuadrilateral extends Shape{
     
+    abstract void setArea();
+    
+    abstract void setPerimeter();
 }
