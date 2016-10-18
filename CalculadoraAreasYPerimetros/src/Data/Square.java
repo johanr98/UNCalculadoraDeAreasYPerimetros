@@ -11,18 +11,14 @@ package Data;
  */
 public class Square extends Cuadrilateral{
 
-    private double side;
-
-    public Square(double lado) {
-        this.side = side;
-    }
-    
-    public void setArea(){
-        this.area= side * side ;
-    }
-    
-    public void setPerimeter(){
-        this.perimeter = 4 * side;
+    public Square(double side) {
+        super(side,side,side,side); 
     }
 
+    @Override
+    void calculateArea() {
+        double a = this.getSide1() * this.getSide1();
+        this.setArea(a);
+    }
+    
 }

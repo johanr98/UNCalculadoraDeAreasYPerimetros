@@ -11,20 +11,14 @@ package Data;
  */
 public class Rectangle extends Cuadrilateral {
 
-    private double base;
-    private double altura;
-
-    public Rectangle(double base, double altura) {
-        this.altura = altura;
-        this.base = base;
+    public Rectangle(double base, double high) {
+        super(base, high, base, high);
     }
 
-    public double getBase() {
-        return base;
-    }
-
-    public double getAltura() {
-        return altura;
-    }
+    @Override
+    void calculateArea() {
+        double a = this.getSide1() * this.getSide2();
+        this.setArea(a);
+    }    
 
 }

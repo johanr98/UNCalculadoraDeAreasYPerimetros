@@ -10,6 +10,10 @@ package Data;
  * @author johanr98 jsromerod@unal.edu.co
  */
 public class Isosceles extends Triangle{
-    private double side1and2;
-    private double side3;
+    
+    public Isosceles(double side1and2, double side3) {
+        super(side1and2, side1and2, side3);
+    }
+    
+    
 }

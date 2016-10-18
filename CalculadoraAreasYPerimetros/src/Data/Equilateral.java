@@ -10,5 +10,9 @@ package Data;
  * @author johanr98 jsromerod@unal.edu.co
  */
 public class Equilateral extends Triangle{
-    private double sides;
+    
+    public Equilateral(double side){
+        super(side, side, side);
+    }
+    
 }

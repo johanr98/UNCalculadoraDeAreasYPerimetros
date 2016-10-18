@@ -11,43 +11,21 @@ package Data;
  */
 public class Trapezoid extends Cuadrilateral{
 
-    private double baseMayor;
-    private double baseMenor;
-    private double lado1;
-    private double lado2;
-    private double altura;
-
-    public Trapezoid(double baseMayor, double baseMenor, double altura) {
-        this.baseMayor = baseMayor;
-        this.baseMenor = baseMenor;
-        this.altura = altura;
+    private double high;
+    
+    public Trapezoid(double MayorBase, double MinorBase, double side3, double side4, double high) {
+        super(MayorBase, MinorBase, side3, side4);
+        this.high=high;
     }
 
-    public Trapezoid(double baseMayor, double baseMenor, double lado1, double lado2) {
-        this.baseMayor = baseMayor;
-        this.baseMenor = baseMenor;
-        this.lado1 = lado1;
-        this.lado2 = lado2;
+    @Override
+    void calculateArea() {
+        double a= ((this.getSide1()+this.getSide2())*this.getHigh())/2;
+        this.setArea(a);
     }
 
-    public double getBaseMayor() {
-        return baseMayor;
-    }
-
-    public double getBaseMenor() {
-        return baseMenor;
-    }
-
-    public double getLado1() {
-        return lado1;
-    }
-
-    public double getLado2() {
-        return lado2;
-    }
-
-    public double getAltura() {
-        return altura;
+    public double getHigh() {
+        return high;
     }
 
 }

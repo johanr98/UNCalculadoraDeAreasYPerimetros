@@ -11,36 +11,27 @@ package Data;
  */
 public abstract class Triangle extends Shape{
 
-    private double base;
-    private double lado2;
-    private double lado3;
-    private double altura;
+    private double side1;
+    private double side2;
+    private double side3;
+    private double high;
 
-    public Triangle(double lado1, double lado2, double lado3) {
-        this.base = lado1;
-        this.lado2 = lado2;
-        this.lado3 = lado3;
+    public Triangle(double side1, double side2, double side3){
+        this.side1=side1;
+        this.side2=side2;
+        this.side3=side3;
     }
-
-    public Triangle(double base, double altura) {
-        this.base = base;
-        this.altura = altura;
+    
+    @Override
+    void calculatePerimeter() {
+        double p= this.side1 + this.side2+ this.side3;
+        this.setPerimeter(p);
     }
-
-    public double getBase() {
-        return base;
+    
+    @Override
+    void calculateArea() {
+        double a= (this.side1 * this.high)/2;
+        this.setArea(a);
     }
-
-    public double getLado2() {
-        return lado2;
-    }
-
-    public double getLado3() {
-        return lado3;
-    }
-
-    public double getAltura() {
-        return altura;
-    }
-
+    
 }
