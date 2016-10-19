@@ -14,6 +14,10 @@ public class Scalene extends Triangle{
     public Scalene(double side1, double side2, double side3) {
         super(side1, side2, side3);
     }
-    
+
+    @Override
+    void buildId() {
+        this.setId("Scalene triangle");
+    }
     
 }

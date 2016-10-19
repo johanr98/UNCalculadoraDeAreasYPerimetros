@@ -26,4 +26,10 @@ public class Semicircle extends Circle{
         double p= ( Math.PI * this.getRadio() ) + (2 * this.getRadio()) ;
         this.setPerimeter(p);
     }
+    
+    @Override
+    void buildId() {
+        this.setId("Semicircle");
+    }
+    
 }

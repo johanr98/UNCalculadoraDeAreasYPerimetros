@@ -34,4 +34,6 @@ public abstract class Triangle extends Shape{
         this.setArea(a);
     }
     
+    abstract void buildId();
+    
 }

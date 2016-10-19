@@ -44,5 +44,7 @@ public abstract class Cuadrilateral extends Shape{
         double p= this.side1 + this.side2+ this.side3+this.side4;
         this.setPerimeter(p);
     }
+    
+    abstract void buildId();
    
 }

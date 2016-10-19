@@ -21,4 +21,9 @@ public class Square extends Cuadrilateral{
         this.setArea(a);
     }
     
+    @Override
+    void buildId() {
+        this.setId("Square");
+    }
+    
 }

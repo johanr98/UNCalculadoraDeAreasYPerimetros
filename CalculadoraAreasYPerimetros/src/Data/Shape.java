@@ -12,25 +12,33 @@ package Data;
 public abstract class Shape {
     private double area;
     private double perimeter;
+    private String id;
     
     abstract void calculateArea();
     
     abstract void calculatePerimeter();    
 
-    public double getArea() {
-        return area;
-    }
-
     public void setArea(double area) {
         this.area = area;
     }
 
-    public double getPerimeter() {
-        return perimeter;
-    }
-
     public void setPerimeter(double perimeter) {
         this.perimeter = perimeter;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    
+    abstract void buildId();
+    
+    
+    
+    @Override
+    public String toString(){
+        return "Shape : "+this.id+"\n"+
+               "Area : "+this.area+"\n"+
+               "Perimeter : "+ this.perimeter;
     }
     
 }

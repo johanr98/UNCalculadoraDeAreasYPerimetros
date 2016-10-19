@@ -15,4 +15,9 @@ public class Equilateral extends Triangle{
         super(side, side, side);
     }
     
+    @Override
+    void buildId() {
+        this.setId("Equilateral triangle");
+    }
+    
 }

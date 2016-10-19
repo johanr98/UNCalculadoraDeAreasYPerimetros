@@ -15,5 +15,9 @@ public class Isosceles extends Triangle{
         super(side1and2, side1and2, side3);
     }
     
+    @Override
+    void buildId() {
+        this.setId("Isosceles triangle");
+    }
     
 }

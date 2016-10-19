@@ -27,5 +27,10 @@ public class Trapezoid extends Cuadrilateral{
     public double getHigh() {
         return high;
     }
+    
+    @Override
+    void buildId() {
+        this.setId("Trapezoid");
+    }
 
 }

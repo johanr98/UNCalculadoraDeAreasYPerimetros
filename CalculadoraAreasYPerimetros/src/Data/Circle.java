@@ -32,5 +32,10 @@ public class Circle extends Shape{
     public double getRadio() {
         return radio;
     }
+    
+    @Override
+    void buildId() {
+        this.setId("Circle");
+    }
 
 }
