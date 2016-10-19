@@ -16,13 +16,13 @@ public class Rectangle extends Cuadrilateral {
     }
 
     @Override
-    void calculateArea() {
+    public void calculateArea() {
         double a = this.getSide1() * this.getSide2();
         this.setArea(a);
     }
 
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Rectangle");
     }
 

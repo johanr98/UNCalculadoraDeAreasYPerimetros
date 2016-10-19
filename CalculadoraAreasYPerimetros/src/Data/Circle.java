@@ -34,7 +34,7 @@ public class Circle extends Shape{
     }
     
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Circle");
     }
 

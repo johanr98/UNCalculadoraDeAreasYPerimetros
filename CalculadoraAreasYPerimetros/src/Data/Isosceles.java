@@ -16,7 +16,7 @@ public class Isosceles extends Triangle{
     }
     
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Isosceles triangle");
     }
     

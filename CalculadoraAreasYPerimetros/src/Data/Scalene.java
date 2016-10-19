@@ -16,7 +16,7 @@ public class Scalene extends Triangle{
     }
 
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Scalene triangle");
     }
     

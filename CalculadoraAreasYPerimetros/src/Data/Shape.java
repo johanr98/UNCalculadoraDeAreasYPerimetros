@@ -14,9 +14,9 @@ public abstract class Shape {
     private double perimeter;
     private String id;
     
-    abstract void calculateArea();
+    public abstract void calculateArea();
     
-    abstract void calculatePerimeter();    
+    public abstract void calculatePerimeter();    
 
     public void setArea(double area) {
         this.area = area;
@@ -30,9 +30,7 @@ public abstract class Shape {
         this.id = id;
     }
     
-    abstract void buildId();
-    
-    
+    public abstract void buildId();
     
     @Override
     public String toString(){

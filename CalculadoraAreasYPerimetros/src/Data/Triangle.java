@@ -23,17 +23,18 @@ public abstract class Triangle extends Shape{
     }
     
     @Override
-    void calculatePerimeter() {
+    public void calculatePerimeter() {
         double p= this.side1 + this.side2+ this.side3;
         this.setPerimeter(p);
     }
     
     @Override
-    void calculateArea() {
+    public void calculateArea() {
         double a= (this.side1 * this.high)/2;
         this.setArea(a);
     }
     
-    abstract void buildId();
+    @Override
+    public abstract void buildId();
     
 }

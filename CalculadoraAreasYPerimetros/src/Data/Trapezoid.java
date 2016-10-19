@@ -19,7 +19,7 @@ public class Trapezoid extends Cuadrilateral{
     }
 
     @Override
-    void calculateArea() {
+    public void calculateArea() {
         double a= ((this.getSide1()+this.getSide2())*this.getHigh())/2;
         this.setArea(a);
     }
@@ -29,7 +29,7 @@ public class Trapezoid extends Cuadrilateral{
     }
     
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Trapezoid");
     }
 

@@ -16,7 +16,7 @@ public class Equilateral extends Triangle{
     }
     
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Equilateral triangle");
     }
     

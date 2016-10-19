@@ -28,7 +28,7 @@ public class Semicircle extends Circle{
     }
     
     @Override
-    void buildId() {
+    public void buildId() {
         this.setId("Semicircle");
     }
     
