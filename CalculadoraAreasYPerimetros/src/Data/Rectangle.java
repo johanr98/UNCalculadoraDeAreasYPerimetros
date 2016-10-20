@@ -9,7 +9,7 @@ package Data;
  *
  * @author joseb
  */
-public class Rectangle extends Cuadrilateral {
+public class Rectangle extends Quadrilateral {
 
     public Rectangle(double base, double high) {
         super(base, high, base, high);

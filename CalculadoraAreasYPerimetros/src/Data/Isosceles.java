@@ -20,5 +20,12 @@ public class Isosceles extends Triangle{
     public void buildId() {
         this.setId("Isosceles triangle");
     }
+
+    @Override
+    public void calculateArea() {
+        double area = Math.sqrt((Math.pow(this.getSide1(), 2)
+                - (Math.pow(this.getSide3(), 2)) / 4)) * this.getSide3() / 2;
+        this.setArea(area);
+    }
     
 }

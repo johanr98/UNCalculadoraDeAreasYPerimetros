@@ -9,8 +9,8 @@ package Data;
  *
  * @author johanr98 jsromerod@unal.edu.co
  */
-public class Scalene extends Triangle{
-    
+public class Scalene extends Triangle {
+
     public Scalene(double side1, double side2, double side3) {
         super(side1, side2, side3);
         this.buildId();
@@ -20,5 +20,16 @@ public class Scalene extends Triangle{
     public void buildId() {
         this.setId("Scalene triangle");
     }
-    
+
+    @Override
+    public void calculateArea() {
+
+        double semiperimetro = (this.getSide1() + this.getSide2()
+                + this.getSide3()) / 2;
+        double area = Math.sqrt(semiperimetro * (semiperimetro - this.getSide1())
+                * (semiperimetro - this.getSide2()) * (semiperimetro - this.getSide3()));
+        this.setArea(area);
+
+    }
+
 }
