@@ -14,7 +14,7 @@ import UI.ShapeCalculatorUI;
  */
 public class ShapeCalculatorTest {
 
-    static Shape shape;
+    static Shape s;
 
     public static void main(String... args) {
         ShapeCalculatorUI.printWelcome();
@@ -28,8 +28,15 @@ public class ShapeCalculatorTest {
                     opc = ShapeCalculatorUI.leerInt();
                     switch (opc) {
                         case 1:
-
-                        case 4:
+                            
+                            break;
+                        case 2 :
+                            
+                            break;
+                        case 3 :
+                            
+                            break;
+                        case 4 :
                             break;
                     }
                     break;
@@ -38,8 +45,15 @@ public class ShapeCalculatorTest {
                     opc = ShapeCalculatorUI.leerInt();
                     switch (opc) {
                         case 1:
-
-                        case 4:
+                            
+                            break;
+                        case 2 :
+                            
+                            break;
+                        case 3 :
+                            
+                            break;
+                        case 4 :
                             break;
                     }
                     break;
@@ -48,8 +62,15 @@ public class ShapeCalculatorTest {
                     opc = ShapeCalculatorUI.leerInt();
                     switch (opc) {
                         case 1:
-
-                        case 4:
+                            
+                            break;
+                        case 2 :
+                            
+                            break;
+                        case 3 :
+                            
+                            break;
+                        case 4 :
                             break;
                     }
                     break;

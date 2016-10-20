@@ -64,13 +64,13 @@ public class ShapeCalculatorUI {
         System.out.println("");
         switch (n) {
             case 0:
-                System.out.print("Ingrese la base : ");
+                System.out.print("Input the base : ");
                 break;
             case 1:
-                System.out.print("Ingrese la base mayor : ");
+                System.out.print("Input the mayor base : ");
                 break;
             case 2:
-                System.out.print("Ingrese la base menor : ");
+                System.out.print("Input the minor base : ");
                 break;
         }
 
@@ -78,32 +78,27 @@ public class ShapeCalculatorUI {
 
     public static void printInputAltura() {
         System.out.println("");
-        System.out.print("Ingrese la altura : ");
+        System.out.print("Input the high : ");
     }
 
     public static void printInputRadio() {
         System.out.println("");
-        System.out.print("Ingrese el radio : ");
+        System.out.print("Input the radio : ");
     }
 
     public static void printInputLado(int n) {
         System.out.println("");
         switch (n) {
             case 0:
-                System.out.print("Ingrese el lado : ");
+                System.out.print("Input the side : ");
                 break;
             default:
-                System.out.print("Ingrese el lado " + n + " : ");
+                System.out.print("Input the side number " + n + " : ");
         }
-    }
-
-    public static void printBoundError() {
-        System.out.println("");
-        System.out.print("Valor invalido, vuelva a ingresarlo : ");
     }
     
     public static void printShapeAreaAndPerimeter(Shape a){
-        
+        System.out.println(a);
     }
     
     public static int leerInt() {
