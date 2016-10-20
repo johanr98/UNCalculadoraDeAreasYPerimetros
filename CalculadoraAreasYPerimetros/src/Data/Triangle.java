@@ -27,9 +27,6 @@ public abstract class Triangle extends Shape {
         this.setPerimeter(p);
     }
 
-    @Override
-    public abstract void buildId();
-
     public double getSide1() {
         return side1;
     }
