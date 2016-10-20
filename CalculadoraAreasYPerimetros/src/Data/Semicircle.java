@@ -24,7 +24,7 @@ public class Semicircle extends Circle{
     
     @Override
     public void calculatePerimeter(){
-        double p= ( Math.PI * this.getRadio() ) + (2 * this.getRadio()) ;
+        double p= ( Math.PI * this.getRadio()) + (2 * this.getRadio()) ;
         this.setPerimeter(p);
     }
     

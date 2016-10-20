@@ -60,7 +60,7 @@ public class ShapeCalculatorUI {
         System.out.print("Your option: ");
     }
 
-    public static void printInputBase(int n) {
+    public static double printInputBase(int n) {
         System.out.println("");
         switch (n) {
             case 0:
@@ -73,20 +73,22 @@ public class ShapeCalculatorUI {
                 System.out.print("Input the minor base : ");
                 break;
         }
-
+        return leerDouble();
     }
 
-    public static void printInputAltura() {
+    public static double printInputAltura() {
         System.out.println("");
         System.out.print("Input the high : ");
+        return leerDouble();
     }
 
-    public static void printInputRadio() {
+    public static double printInputRadio() {
         System.out.println("");
         System.out.print("Input the radio : ");
+        return leerDouble();
     }
 
-    public static void printInputLado(int n) {
+    public static double printInputLado(int n) {
         System.out.println("");
         switch (n) {
             case 0:
@@ -95,6 +97,7 @@ public class ShapeCalculatorUI {
             default:
                 System.out.print("Input the side number " + n + " : ");
         }
+        return leerDouble();
     }
     
     public static void printShapeAreaAndPerimeter(Shape a){
