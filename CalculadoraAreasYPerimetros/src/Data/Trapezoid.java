@@ -13,8 +13,8 @@ public class Trapezoid extends Quadrilateral{
 
     private double high;
     
-    public Trapezoid(double MayorBase, double MinorBase, double side3, double side4, double high) {
-        super(MayorBase, MinorBase, side3, side4);
+    public Trapezoid(double mayorBase, double minorBase, double side3, double side4, double high) {
+        super(mayorBase, minorBase, side3, side4);
         this.high=high;
     }
 
