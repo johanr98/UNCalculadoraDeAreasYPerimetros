@@ -55,7 +55,7 @@ public class ShapeCalculatorUI {
 
     public static void printRepeat() {
         System.out.println("");
-        System.out.println("Input a number 4 if you want to exit from the app");
+        System.out.println("Input number 4 or lower if you want to exit from the app");
         System.out.println("and any other number higher than 4 to repeat the whole menu.");
         System.out.print("Your option: ");
     }

@@ -97,7 +97,7 @@ public class ShapeCalculatorTest {
                     break;
             }
             ShapeCalculatorUI.printRepeat();
-            ShapeCalculatorUI.leerInt();
+            opc=ShapeCalculatorUI.leerInt();
         } while (opc > 4);
 
     }

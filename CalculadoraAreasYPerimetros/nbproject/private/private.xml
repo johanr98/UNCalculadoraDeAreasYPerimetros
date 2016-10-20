@@ -12,18 +12,8 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Isosceles.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Equilateral.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Rectangle.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/UI/ShapeCalculatorUI.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Logic/ShapeCalculatorTest.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Scalene.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Triangle.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Square.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Shape.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Semicircle.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Trapezoid.java</file>
-            <file>file:/C:/Users/johans/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Data/Circle.java</file>
+            <file>file:/C:/Users/macas/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/UI/ShapeCalculatorUI.java</file>
+            <file>file:/C:/Users/macas/Documents/GitHub/UNCalculadoraDeAreasYPerimetros/CalculadoraAreasYPerimetros/src/Logic/ShapeCalculatorTest.java</file>
         </group>
     </open-files>
 </project-private>
