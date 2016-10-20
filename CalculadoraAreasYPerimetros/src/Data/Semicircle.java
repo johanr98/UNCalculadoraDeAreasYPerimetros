@@ -13,6 +13,7 @@ public class Semicircle extends Circle{
     
     public Semicircle(double radio) {
         super(radio);
+        this.buildId();
     }
     
     @Override

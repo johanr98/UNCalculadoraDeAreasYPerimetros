@@ -15,6 +15,7 @@ public class Circle extends Shape{
 
     public Circle(double radio) {
         this.radio = radio;
+        this.buildId();
     }
 
     @Override

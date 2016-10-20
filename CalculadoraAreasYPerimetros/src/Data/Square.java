@@ -13,6 +13,7 @@ public class Square extends Cuadrilateral{
 
     public Square(double side) {
         super(side,side,side,side); 
+        this.buildId();
     }
 
     @Override
